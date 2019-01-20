@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "4181ab3d-719c-47fc-9dfc-ddff6d22cffb",
+    "appType": "clockface",
+    "appDisplayName": "phantomtype",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Yujie"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0",
+    "@fitbit/sdk-cli": "^1.5.0"
+  }
+}
