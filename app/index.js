@@ -11,6 +11,8 @@ let txtDate = document.getElementById("txtDate");
 let txtHRM = document.getElementById("txtHRM");
 let iconHRM = document.getElementById("iconHRM");
 let imgHRM = iconHRM.getElementById("icon");
+let logo = document.getElementById("logo");
+let logoGroup = logo.getElementById("logoGroup");
 let statsCycle = document.getElementById("stats-cycle");
 let statsCycleItems = statsCycle.getElementsByClassName("cycle-item");
 
@@ -19,6 +21,8 @@ function clockCallback(data) {
   txtTime.text = data.time;
   txtDate.text = data.date;
   txtSeconds.text = data.seconds;
+  logo.animate("highlight");
+  logoGroup.groupTransform.translate.x = 0 - data.secondsAsNumber * 4;
 }
 simpleClock.initialize("seconds", "longDate", clockCallback);
 

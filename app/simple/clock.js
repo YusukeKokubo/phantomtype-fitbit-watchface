@@ -50,5 +50,5 @@ function tickHandler(evt) {
       dateString = `${dayName} ${monthName} ${dayNumber}`;
       break;
   }
-  clockCallback({time: timeString, seconds: seconds, date: dateString});
+  clockCallback({time: timeString, seconds: seconds, date: dateString, secondsAsNumber: today.getSeconds()});
 }

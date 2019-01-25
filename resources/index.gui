@@ -3,7 +3,7 @@
   <text id="txtTime" class="clock-text">13:37</text>
   <text id="txtSeconds" class="seconds-text">58</text>
   <text id="txtDate" class="date-text">MON JANUARY 01</text>
-   <image id="logo" href="images/phantomtype-fitbit.png" class="image" />
+  <use id="logo" href="#logomark" />
   <svg class="stats">
     <use id="iconHRM" href="#heart-beat" />
     <text id="txtHRM" class="stat-left" />
