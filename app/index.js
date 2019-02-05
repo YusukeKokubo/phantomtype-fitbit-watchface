@@ -22,7 +22,7 @@ function clockCallback(data) {
   txtDate.text = data.date;
   txtSeconds.text = data.seconds;
   logo.animate("highlight");
-  logoGroup.groupTransform.translate.x = 0 - data.secondsAsNumber * 4;
+  logoGroup.groupTransform.translate.x = 300 - data.secondsAsNumber * 6;
 }
 simpleClock.initialize("seconds", "longDate", clockCallback);
 

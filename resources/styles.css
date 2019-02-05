@@ -7,7 +7,7 @@
 }
 
 #logo {
-  x: 100%-62;
+  /* x: 100%-1; // settting by clockCallback */
   y: 65;
   width: 70;
   height: 35;

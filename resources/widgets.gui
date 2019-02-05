@@ -19,7 +19,7 @@
       <g id="logoGroup" transform="translate(50%,50%)">
         <image href="images/phantomtype-fitbit.png" class="image" />
         <animateTransform attributeName="transform" attributeType="scale"
-          begin="highlight" end="unload;unhighlight" to="0.95"
+          begin="highlight" end="unload;unhighlight" to="0.97"
           repeatCount="indefinite" final="keep" />
         <animateTransform attributeName="transform" attributeType="scale"
           begin="highlight+0.433" end="unload;unhighlight" to="1.0"
